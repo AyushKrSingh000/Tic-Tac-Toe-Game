@@ -104,7 +104,7 @@ class _HomePageState extends State<HomePage> {
                       minimumSize: Size(120, 45),
                       backgroundColor: Colors.pinkAccent),
                   onPressed: () {
-                    if (name == "ayush1084" && password == "123456") {
+                    if (name == "ayush" && password == "123456") {
                       Navigator.pushNamed(context, "/home");
                       output = '';
 
